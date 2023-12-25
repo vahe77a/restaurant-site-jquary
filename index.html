@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Restaurant </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <script src="https://kit.fontawesome.com/8628f0fd9a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="container-fluid p-3 naw">
+    	<div class="container">
+	        <div class="row justify-content-between align-items-center">
+	            <div class="col-md-2 col-6">
+	                <a href="index.html"><img src="images/logo.png" style="height: 75px;"></a>
+	            </div>
+	            <div class="col-md-8 col-6 navLinks d-flex align-self-center">
+	            	<ul class="nav navigation-links">
+	            		<li><a href="" class="text-light mr-3" data-from="home">Home</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="about">About</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="ingredients">Ingredients</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="menu">Menu</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="reviews">Reviews</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="reservation">Reservation</a></li>
+	            	</ul>
+					<button class="menuIcon"  onclick="myFunction(this)" id="menuBtn">
+						<div class="ereqGcik">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</button>
+					
+					<ul class="opLinks text-center" id="topMenu">
+	            		<li><a href="" class="text-light mr-3" data-from="home">Home</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="about">About</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="ingredients">Ingredients</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="menu">Menu</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="reviews">Reviews</a></li>
+	            		<li><a href="" class="text-light mr-3" data-from="reservation">Reservation</a></li>
+	            	</ul>
+	            </div> 
+	            <div class="col-md-2">
+	            	<div class="socila-links">
+		                <a href="https://twitter.com/?lang=ru" target="blank"><i class="fab fa-twitter twicon mr-3"></i></a>
+		                <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube youtubeicon mr-3"></i></a>
+		                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f facebookicon mr-3"></i></a>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+    </nav>
+    <header class="d-flex align-items-center flex-column" data-to="home">
+        <br>
+        <div class="text-light text-center">
+            <h1> the right ingredients for the right food </h1>
+            <br>
+            <img src="images/titizutyun.png" alt="">
+            <br><br><br>
+            <div class="headerBtns">
+                <button class="btn1 mr-4" data-from="reviews">BOOK A TABLE</button>
+                <button class="btn2 mr-5" data-from="menu">SEE THE MENU</button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- section talerka -->
+        <section class="container-fluid voskerich" data-to="about">
+                <div class="titizText flex-column">
+                	<div class="row text-center" style="padding: 10px 0 20px 0;">
+                		<div class="col-md-5 offset-md-1">
+		                    <p>Just the right food</p>
+		                    <img src="images/titizutyun2.png" class="imgTitiz">
+		                    <p class="text-center d-flex">Lorem ipsum dolor, sit ametconsectetur
+		                        adipisicing elit. Qui culpa officia vero quidem odio quisquam ipsa alias nulla iureobcaecati.
+		                        Qui culpa
+		                        officia vero quidem odio quisquam ipsa alias nulla iureobcaecati.</p>
+                            <img src="images/voskerich.png" class="imgVoskerich">
+                        </div>
+                        <div class="col-md-5 offset-md-1">  
+                             <img src="images/talerka.png" class="talerka">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- section vedroyov xot -->
+        <section class="container-fluid vedro" data-to="ingredients">
+        	<div class="row">
+        		<div class="col-md-5 offset-md-7">
+        		  <div class="fine">
+                    <p class="fineText">Fine ingredients</p>
+                    <img src="images/titizutyun3.png" class="imgTitiz2">
+                    <p class="w-50 text-center d-flex" style="color: white;margin-top: 25px;margin-left: 115px;">Lorem
+                        ipsum dolor, sit amet consectetur
+                        adipisicing elit.Qui culpa officia vero
+                        quidem odio quisquam ipsa alias nulla iureobcaecati.</p>
+                    <div class="row list-img">
+                         <div class="col-4"><img src="images/coren.png" alt=""></div>
+                         <div class="col-4"><img src="images/karmirNkar.png" alt=""></div>
+                         <div class="col-4"><img src="images/hac.png" alt=""></div>
+                    </div>                      
+                  </div>	
+        		</div>
+        	</div>
+
+        </section>
+        <!-- section menu -->
+        <section class="container-fluid cank" data-to="menu">
+            	<div class="container">
+	                <div class="row pt-4">
+	                	<div class="col-md-5 offset-md-1 menu1">
+							<h1>Appetisers</h1>
+							<img src="images/titizutyun2.png" alt="">
+							<div align="left">
+								<div class="menuText"><h3>Tzatsiki</h3><h2>$3.99</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left">
+								<div class="menuText"><h3>Aubergine_Salad</h3><h2>$5.50</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left">
+								<div class="menuText"><h3>Aubergine_Salad</h3><h2>$5.25</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div>
+						</div>
+	                	<div class="col-md-5 offset-md-1 menu1">
+							<h1>Starters</h1>
+							<img src="images/titizutyun2.png" alt="">
+							<div align="left">
+								<div class="menuText"><h3>Haloumi</h3><h2>$3.99</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left">
+								<div class="menuText"><h3>Spinach_Pie</h3><h2>$5.50</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div>
+						</div>
+	                	<div class="col-md-5 offset-md-1 menu1">
+							<h1 style="margin-top: 50px;">Salads</h1>
+							<img src="images/titizutyun2.png" alt="">
+							<div align="left">
+								<div class="menuText"><h3>Olive_Special</h3><h2>$5.99</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left" style="border: 2px solid #CC9900">
+								<div class="menuText"><h3>Greek_Salad</h3>
+									<div align="center">
+										<button class="Btn_menu">Special</button>
+										<h2>$5.50</h2>
+									</div>
+									
+								</div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left">
+								<div class="menuText"><h3>Gusto_Salad</h3><h2>$5.25</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div>
+						</div>
+	                	<div class="col-md-5 offset-md-1 menu1">
+							<h1>Main Dishes</h1>
+							<img src="images/titizutyun2.png" alt="">
+							<div align="left">
+								<div class="menuText"><h3>Cornish_Mackerel</h3><h2>$5.99</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left" style="border: 2px solid #CC9900">
+								<div class="menuText"><h3>Roast_Lamb</h3>
+									<div align="center">
+										<button class="Btn_menu">Special</button>
+										<h2>$5.50</h2>
+									</div>
+									
+								</div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div><br>
+							<div align="left">
+								<div class="menuText"><h3>Fried_Chicken</h3><h2>$5.25</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div>
+							<div align="left">
+								<div class="menuText"><h3>Pastitsio</h3><h2>$5.99</h2></div>
+								<hr style="border-top: 2px solid #CC9900!important; margin: 0;">
+								<div><p>Lorem ipsum dolor sit, amet consectetur.</p></div>
+							</div>
+						</div>                 
+	                </div>
+                </div>
+        </section>
+        <!-- section badrjan -->
+        <section class="container-fluid badrjan" data-to="reviews">
+        	<div class="row text-center">
+        		<div class="col-md-7 offset-md-4 miban">
+	                <div class="guestReviews text-center">
+	                    <p class="h3 text-center guestText">Guest Reviews</p>
+	                    <img src="images/titizutyun3.png" class="guestTitiz">
+	                    <p class="Guesttext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quas
+	                        enim veritatis nulla expedita ex, blanditiis optio est repellat.
+	                        Repellat cum amet molestias laboriosam impedit, magni odit earum
+	                        eum cupiditate?Lorem ipsum, dolor sit amet consectetur adipisicing
+	                        elit. Quam alias ducimus.</p>
+	                    <p class="newYork">-food inc, New-York</p>
+	                </div>
+                </div>
+	        </div>        
+        </section>
+        <!-- section verjin -->
+        <section class="container-fluid verjin" data-to="reservation">
+                <div class="nkarnerVerjin d-flex">
+                	<div class="row" style="padding-bottom: 15px;">
+                		<div class="col-md-5">
+                			<div class="row" style="margin-top: 45px;">
+                			     <div class="col-md-6 hiden">
+                			     	<img src="images/ujin.jpg" class="ujin_nkar mr-4">
+                			     </div>
+                			     <div class="col-md-6 hiden">
+                			     	<img src="images/gilas.jpg" class="gilas_nkar"></div>
+                			     </div>                			     
+                		    </div>
+                		<div class="col-md-6 offset-md-1">
+                		<div class="the_right_food text-center">
+                        <p class="vernagir ">Just the right food</p>
+                        <img src="images/titizutyun2.png" alt="" style="width: 300px; padding-bottom: 15px;">
+                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Assumenda mollitia consequatur iusto doloremque id consequuntur provident nemo impedit cum
+                            pariatur!</p>
+                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Assumenda mollitia consequatur iusto doloremque amet consectetur adipisicing elit. amet
+                            consectetur adipisicing elit. </p>
+                        <div class="row text-center">
+                        	<form class="col-md-12 formClass">
+                        		<div class="form-row">
+	                        		<div class="form-group col-md-6">
+	                        			<label for="name" style="color: #CC9900;">Name*</label>
+	                        			<input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="your name *">
+	                        		</div>
+	                      		    <div class="form-group col-md-6">
+	                        			<label for="email" style="color: #CC9900;">Email*</label>
+	                        			<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email *">
+	                        		</div>	                        			
+                        	    </div>
+                        	    <div class="form-row">
+	                        		<div class="form-group col-md-6">
+	                        			<label for="date" style="color: #CC9900;">Date </label>
+	                        			<input type="date" class="form-control" id="date" aria-describedby="dateHelp">
+	                        		</div>
+	                      		    <div class="form-group col-md-6">
+	                        			<label for="select" style="color: #CC9900;" >Party number </label>
+	                        			<select class="form-control" id="select">
+	                        				<option>1</option>
+	                        				<option>2</option>
+	                        				<option>3</option>
+	                        				<option>4</option>
+	                        			</select>
+	                        		</div>	                        			
+                        	    </div>
+                        	    <button class="verjin_btn">Book now!</button>
+                        	</form>
+            
+                    	</div>
+                	</div>
+                	</div>
+               </div>
+        </section>
+    </main>
+    <footer style="background-color: #191919;">
+        <div class="container-fluid">
+        	<div class="container">
+				<div class="row text-center pt-4">
+					<!-- about us -->
+					<div class="col-md-4 mb-3" >
+						<h3>About Us</h3>
+						<img src="images/titizutyun3.png" style="margin: 10px 0" alt="">
+						<p>Lambda`s new and expended Chelsea location represents a truly authentic <b>Greek</b> pattiserie, featuring breakfasts of fresh croissants and steaming bowls of cafe՛. Lambda the best restaurant in town.</p>
+					</div>
+
+					<div class="col-md-4 mb-3" >
+						<h3>Opening Hours Us</h3>
+						<img src="images/titizutyun3.png" style="margin: 10px 0" alt="">
+						<p><b>Mon-Thu:</b> 7:00am-8:00pm</p>
+						<p><b>Fri-Sun:</b> 7:00am-10:00pm</p>
+						<div class="text-center footer2Icons">
+							<a href="">
+								<i class="fab fa-cc-visa"></i>
+							</a>
+							<a href="">
+								<i class="fab fa-cc-apple-pay"></i>
+							</a>
+							<a href="">
+								<i class="fab fa-cc-amex"></i>
+							</a>
+							<a href="">
+								<i class="fab fa-cc-discover"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+							<h3>Our Location</h3>
+							<img src="images/titizutyun3.png" style="margin: 10px 0" alt="">
+							<p>19th Paradise Street Sitia</p>
+							<p>128 Meserole Avenue</p>
+							<div class="text-center footer3Icons">
+								<a href="https://twitter.com/?lang=ru" target="blank"><i
+										class="fab fa-twitter  mr-3"></i></a>
+								<a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube  mr-3"></i></a>
+								<a href="https://www.facebook.com/" target="blank"><i
+										class="fab fa-facebook-f  mr-3"></i></a>
+								<a href="https://ok.ru/" target="blank"><i class="fab fa-odnoklassniki-square"></i></a>
+							</div>
+					</div>    
+				</div>
+            </div>
+		</div>
+    </footer>
+
+
+
+
+	<script>
+		function myFunction(x) {
+		  x.classList.toggle("change");
+		}
+	</script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

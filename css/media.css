@@ -1,0 +1,77 @@
+@media (min-width: 1200px){
+
+}
+@media (max-width: 1199px){
+
+}
+@media (max-width: 1100px){
+    
+}
+
+@media (max-width: 1024px){
+	.socila-links{
+		display: none;
+	}
+}
+@media (max-width: 990px){
+	.menuText h3, .menuText h2{
+		font-size: 25px;
+	}
+
+}
+@media (max-width: 768px){
+	.miban{
+		margin-left: 0;
+	}
+	.nav.navigation-links {
+		display: none;
+	}
+	.open{
+		height: 100%;
+		z-index: 8;
+		display: inline-block;
+		list-style: none;
+	}
+
+	.menuIcon{
+        opacity: 1;
+    }
+	#menuBtn {
+		text-align: right;
+		float: right;
+		display: block;
+		width: 100%;
+	}
+	.vedro .fine {
+		min-width: 480px;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	
+	header h1 {
+		font-size: 44px;
+	}
+	.vedro .fine {
+		left: 0;
+	}
+	.nkarnerVerjin {
+		padding-left: 0;
+		text-align: center;
+	}
+	.cank div div:nth-child(1){
+		padding-bottom: 50px;
+	}
+	.formClass{
+		padding-bottom: 20px;
+	}
+	.guestReviews{
+		width: unset;
+	}
+}
+
+@media (max-width: 425px){
+
+}
+@media (max-width: 320px){
+
+}
